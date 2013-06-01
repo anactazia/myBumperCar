@@ -48,6 +48,9 @@ Om du har WampServer så extraherar du mappen under c:/wamp/www/</p>
 <code>var Game = require("c:/wamp/www/javascript/me/kmom07-10/myBumperCar/js/game");</code>
 <p>Ändra denna rad så att den stämmer överens med var du har lagt mappen med myBumperCar.</p>
 
+<p><b>EXEMPEL:</b><br />
+<b><i>c:/wamp/www/myBumperCar/js/game</i></b></p>
+
 <p>I filen <b>clientMultiPlayer.js</b> som ligger under mappen <b>myBumperCar/js</b> finner du följande på rad 58 och 60:<p>
 <code>Socket = new MozWebSocket("ws://localhost:9001");</code><br />
 <code>Socket = new WebSocket("ws://localhost:9001");</code>
