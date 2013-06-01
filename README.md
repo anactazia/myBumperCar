@@ -29,13 +29,13 @@ som heter <b>myBumperCar-master</b>.</p>
 <p>Extrahera mappen på din server </p>
 
 <p><b>EXEMPEL:</b><br />
-<i>Om du har WampServer så extraherar du mappen under c:/wamp/www/</i></p>
+Om du har WampServer så extraherar du mappen under c:/wamp/www/</p>
 
 <p>Gå till den extraherade mappen och byt namn på den så att den bara heter <b>myBumperCar</b>.</p>
 
 <p>Starta sedan <b>kommandotolken</b></p> 
 
-<p><uppercase><b>Exempel:</uppercase></b><br />
+<p><b>EXEMPEL:</b><br />
 Om du har Windows, tryck på startknappen och skriv <b>cmd</b> i sökrutan och tryck enter</p>
 
 <p>När kommandotolken startas så pekar den oftast på användarkatalogen. <br />
