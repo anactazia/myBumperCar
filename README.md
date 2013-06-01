@@ -35,6 +35,26 @@ Om du har WampServer så extraherar du mappen under c:/wamp/www/</p>
 
 <p>Gå till den extraherade mappen och byt namn på den så att den bara heter <b>myBumperCar</b>.</p>
 
+<hr />
+
+<p>OBS! För att spelet skall fungera så behövs det göras ett par ändringar i filerna:<br />
+(Öppna filen i en texteditor för att ändra i den ex. NotePad eller <a href="http://www.jedit.org/">jEdit</a></p>
+
+<p>I filen <b>server.js</b> som ligger under mappen <b>myBumperCar/js</b> finner du följande på rad 3:<p>
+<code>var WebSocketServer = require("c:/Program/nodejs/websocket").server;</code>
+<p>Ändra denna rad så att den stämmer överens med var du har installerat nodejs.</p>
+
+<p>I samma fil finner du följande på rad 4:<p>
+<code>var Game = require("c:/wamp/www/javascript/me/kmom07-10/myBumperCar/js/game");</code>
+<p>Ändra denna rad så att den stämmer överens med var du har lagt mappen med myBumperCar.</p>
+
+<p>I filen <b>clientMultiPlayer.js</b> som ligger under mappen <b>myBumperCar/js</b> finner du följande på rad 58 och 60:<p>
+<code>Socket = new MozWebSocket("ws://localhost:9001");</code><br />
+<code>Socket = new WebSocket("ws://localhost:9001");</code>
+<p>Om du inte vill köra spelet på localhost så behöver du ändra i dessa rader. Du kan byta ut localhost mot din ip-adress.</p>
+
+<hr />
+
 <p>Starta sedan <b>kommandotolken</b></p> 
 
 <p><b>EXEMPEL:</b><br />
@@ -64,7 +84,7 @@ Du har nu startat din server och rutan med cmd måste hållas öppen så länge 
 då servern stängs av om du stänger rutan.</p>
 
 <p>Efter detta öppnar du din browser (spelet är utvecklat i <b>Firefox</b>, så den browsern är att föredra. 
-<a href="http://www.mozilla.org/en-US/">Firefox Kan hämtas här</a>)</p>
+<a href="http://www.mozilla.org/en-US/">Firefox kan hämtas här</a>)</p>
 
 <p>I adressfältet skriver du in sökvägen till filen bumperCarMultiplayer.php som ligger under mappen myBumperCar <br />
 
