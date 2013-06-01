@@ -28,8 +28,10 @@ som heter <b>myBumperCar-master</b>.</p>
 
 <p>Extrahera mappen på din server </p>
 
+
 <p><b>EXEMPEL:</b><br />
 Om du har WampServer så extraherar du mappen under c:/wamp/www/</p>
+
 
 <p>Gå till den extraherade mappen och byt namn på den så att den bara heter <b>myBumperCar</b>.</p>
 
