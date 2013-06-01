@@ -97,7 +97,7 @@ då servern stängs av om du stänger rutan.</p>
 <p>Du har nu startat spelet.</p>
 
 <p>Om du istället vill spela ensam så kan du skriva in följande sökväg i browsern:<br />
-<code>localhost/wamp/www/myBumperCar/bumperCarSinglePlayer.php</code></p>
+<code>localhost/myBumperCar/bumperCarSinglePlayer.php</code></p>
 <p>Du behöver inte ha igång serven för att spela SinglePlayer versionen.</p>
 
 <p><i<b>Mycket nöje med myBumperCar!</b></i></p>
