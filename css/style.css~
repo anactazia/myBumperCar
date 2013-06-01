@@ -1,0 +1,12 @@
+
+
+body 		{
+		text-align: center;
+		text-transform: uppercase;
+		}
+	
+#BumperCanvas	{
+		border: 3px solid #000000;
+		background: url(../img/background.png);
+		}	
+

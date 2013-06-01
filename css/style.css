@@ -1,0 +1,35 @@
+.headline	{
+		margin-top:5px;
+		margin-bottom:10px;
+		font-family:Arial;
+		font-size:2em;
+		}
+
+body 		{
+		text-align: center;
+		}
+	
+#BumperCanvas	{
+		border: 3px solid #000000;
+		background: url(../img/background.png);
+		}
+		
+audio		{
+		margin-top:10px;
+		}
+		
+.gameArea	{
+		background: #ccc;
+		border:3px solid #000;
+		padding-bottom:10px;
+		width:800px;
+		margin:0 auto;
+		}
+		
+.instructions	{
+		font-family:Arial;
+		font-size: 0.8em;
+		text-transform: uppercase;
+		font-style: italic;
+		}
+
