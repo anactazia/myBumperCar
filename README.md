@@ -92,7 +92,7 @@ då servern stängs av om du stänger rutan.</p>
 <p>I adressfältet skriver du in sökvägen till filen bumperCarMultiplayer.php som ligger under mappen myBumperCar <br />
 
 <p><b>EXEMPEL:</b><br />
-<code>localhost/wamp/www/myBumperCar/bumperCarMultiPlayer.php</code></p>
+<code>localhost/myBumperCar/bumperCarMultiPlayer.php</code></p>
 
 <p>Du har nu startat spelet.</p>
 
