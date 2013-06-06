@@ -15,6 +15,7 @@ Har du ingen server så rekommenderar jag att du installerar <b>Wampserver</b> s
 
 <p><b>node.js</b> behövs då spelet använder sig av websockets. node.js hittar du om du trycker på länken nedan: </p>
 <i><a href="http://www.nodejs.org/">node.js</a></i>
+<p>Se dokumentation för nodejs hur du går tillväga för att installera websocket-modulen i nodejs.</p>
 
 <hr />
 
